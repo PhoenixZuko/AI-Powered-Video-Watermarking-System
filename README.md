@@ -51,3 +51,21 @@ A key future goal is to integrate Zodiac AI, a system designed to:
 
  I am looking to collaborate with AI training specialists to enhance Zodiac's capabilities, aiming for an industry-standard tool for digital content protection.
 
+
+Recent Updates
+
+Successfully implemented CDU for improved processing speed.
+
+Added multiple profiles to allow for deeper or more subtle watermarking presets.
+
+The program now runs without errors.
+
+Currently configuring different profile settings to work effectively in various filming conditions, such as:
+
+Close-up shots with focus on the person.
+
+Wider frames capturing broader scenes.
+
+Achieved an optimal ONNX inference setting for a balanced frame that is neither too close nor too wide.
+
+These implementations have significantly enhanced my understanding of how AI operates within this system.
