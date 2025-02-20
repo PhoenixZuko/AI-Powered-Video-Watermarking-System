@@ -28,7 +28,7 @@ Includes aesthetic watermark overlays that remain visible during playback.
 
 Can be revealed or reinforced through forensic analysis, ensuring additional security layers.
 
-🛠 Technologies Used
+ Technologies Used
 
 This project is built using:
 
