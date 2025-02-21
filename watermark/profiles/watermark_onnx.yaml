@@ -1,0 +1,20 @@
+# 🔹 Setări pentru watermark bazat pe ONNX
+watermark_onnx:
+  model_path: "./watermark/weights/deeplabv3.onnx"  # Locația modelului ONNX
+  input_size: 
+    width: 224  # Dimensiunea necesară pentru inferență
+    height: 224
+  segmentation_classes:
+    face: [1, 2]  # ID-uri pentru față
+    hair: [15]     # ID pentru păr
+  color_mapping:
+    face: [255, 255, 255]  # Alb pentru față
+    hair: [255, 0, 255]    # Mov pentru păr
+  apply_backup_watermark: true  # Dacă nu este detectată fața/părul, aplică watermark
+  backup_text: "Backup Watermark"
+  backup_opacity: 0.2
+  normalize:
+    mean: [0.485, 0.456, 0.406]  # Normalize mean pentru modelul ONNX
+    std: [0.229, 0.224, 0.225]  # Normalize std pentru modelul ONNX
+  threshold: 127  # Prag pentru binarizarea măștii
+  overlay_opacity: 0.3  # Opacitatea pentru mască

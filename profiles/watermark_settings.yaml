@@ -1,0 +1,18 @@
+watermark:
+  apply_jnd: true        # Activează watermark-ul JND
+  apply_dwt: true        # Activează watermark-ul DWT
+  apply_onnx: true       # Activează detecția ONNX
+  use_gpu: false         # Folosește GPU pentru ONNX dacă este disponibil
+
+jnd:
+  region_size: 55        # Dimensiunea regiunilor pentru watermark JND
+  strength: 50           # Intensitatea watermark-ului aplicat
+
+dwt:
+  password_wm: 3         # Parola pentru watermark DWT (utilizată pentru randomizare)
+  wm_size: 64            # Dimensiunea watermark-ului DWT
+
+onnx:
+  model_path: "watermark/weights/deeplabv3.onnx"  # Locația modelului ONNX
+  input_size: [512, 512]  # Dimensiunea imaginii de intrare pentru ONNX
+  threshold: 0.5          # Pragul de detectare pentru ONNX

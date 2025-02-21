@@ -1,0 +1,14 @@
+opencv-python
+numpy
+yaml
+onnxruntime
+onnxruntime-gpu
+torchvision
+ffmpeg-python
+onnx
+requests
+beautifulsoup4
+selenium
+pandas
+scipy
+matplotlib
