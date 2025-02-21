@@ -68,6 +68,13 @@ This project applies multiple layers of **forensic video watermarking** using **
 - **Drivers:** Ensure **NVIDIA Drivers** are up to date
 
 ---
+##  Automatic Download of the ONNX Model  
+This project requires `deeplabv3.onnx`, which is not included in GitHub due to size limitations.  
+
+To automatically download and save it in `watermark/weights/`, run:  
+```bash
+python download_deeplabv3.onnx.py
+
 
 ##  1. Installation Guide
 
